@@ -11,12 +11,15 @@ We address three classification subtasks:
 - **Task 1**: Detect gendered abuse (Label 1)
 - **Task 2**: Incorporate external datasets for better transfer learning
 - **Task 3**: Jointly predict gendered abuse (Label 1) and explicit language (Label 3)
+-
+-
+-
 
 - **Label 1** - Is this post gendered abuse when not directed at a person of marginalized gender and sexuality?
--**Label 2** - Is the post gendered abuse when directed at a person of marginalized gender and sexuality?
+- **Label 2** - Is the post gendered abuse when directed at a person of marginalized gender and sexuality?
 - **Label 3** - Is this post explicit/aggressive?
 
-The values for each label could be the following
+- The values for each label could be the following
 - "1" - Indicates the annotator believes the post (tweet) matches the label.
 - "0" - Indicates the annotator doesn’t believes the post (tweet) does not match the label.
 - "NL" - The post was assigned to the annotator but not annotated.
