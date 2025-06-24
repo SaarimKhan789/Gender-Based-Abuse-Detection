@@ -4,7 +4,7 @@ A multilingual deep learning system for detecting **gendered abuse** in **Hindi,
 
 ---
 
-## 📌 Overview
+##  Overview
 
 We address three classification subtasks:
 
@@ -14,7 +14,7 @@ We address three classification subtasks:
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 | Approach | Description |
 |---------|-------------|
@@ -29,7 +29,7 @@ We address three classification subtasks:
 
 ---
 
-## 🧪 Results
+##  Results
 
 | Language | Task 1 | Task 2 | Label 1 (Task 3) | Label 3 (Task 3) |
 |----------|--------|--------|------------------|------------------|
@@ -39,7 +39,7 @@ We address three classification subtasks:
 
 ---
 
-## 📚 Datasets
+##  Datasets
 
 - **Uli Gendered Abuse Dataset**  
   ~22k samples across Indic languages with expert annotations for gendered abuse and explicit content.
@@ -62,7 +62,46 @@ We address three classification subtasks:
 
 ---
 
-## 🧑‍💻 Authors
+## ⚙️ Setup Instructions
+
+### Task 1 Inference
+
+1. 📂 Upload the dataset to **Kaggle**
+2. 📓 Upload the notebook to **Kaggle**
+3. 🔧 Set the variable `TRAIN_FLAG = False`
+4. 📁 Upload the **trained model** and update `BEST_MODEL_DIR` with its path
+5. 🛠️ Update the `file_paths` dictionary to reflect the correct dataset paths
+6. ▶️ Run all cells
+
+---
+
+### Task 2 Inference (Transfer Learning)
+
+1.  Upload the dataset to **Kaggle**
+2.  Upload the notebook to **Kaggle**
+3.  Unzip `result.zip` (inside it is `task2_model.zip`); upload the zipped model
+4.  Set `mode_flag = 'infer'`
+5.  Update these paths:
+   - `file_paths`
+   - `hindi_ext_path`
+   - `tamil_ext_path`
+6. 🧠 In `infer_sentence()` set `best_model_dir` to uploaded model path
+7. ▶️ Run all cells
+
+---
+
+### Task 3 Inference (Multi-task Learning)
+
+1. 📂 Upload the dataset to **Kaggle**
+2. 📓 Upload the notebook to **Kaggle**
+3. 🔧 Set `mode_flag = 'infer'`
+4. 📁 Upload the **trained model**
+5. 🛠️ Update:
+   - `BEST_MODEL_DIR`  
+   - `multitask_file_paths`
+6. ▶️ Run all cells
+
+##  Authors
 
 | Name              | Roll Number |
 |-------------------|-------------|
