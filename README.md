@@ -21,10 +21,10 @@ We address three classification subtasks:
 
 <br><br>
 - The values for each label could be the following
-- "1" - Indicates the annotator believes the post (tweet) matches the label.
-- "0" - Indicates the annotator doesn’t believes the post (tweet) does not match the label.
-- "NL" - The post was assigned to the annotator but not annotated.
-- "NaN" - Indicates the post was not assigned to the annotator
+- **1** - Indicates the annotator believes the post (tweet) matches the label.
+- **0** - Indicates the annotator doesn’t believes the post (tweet) does not match the label.
+- **NL** - The post was assigned to the annotator but not annotated.
+- **NaN** - Indicates the post was not assigned to the annotator
 
 ---
 
