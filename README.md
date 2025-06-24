@@ -64,7 +64,7 @@ We address three classification subtasks:
 
 ## ⚙️ Setup Instructions
 '
-###  [Download the models for all tasks](https://drive.google.com/drive/u/0/folders/1kxJ4Avpa-F7XmirskvemHgDtdDe1ZFmc)
+###  Download the models for all tasks[(https://drive.google.com/drive/u/0/folders/1kxJ4Avpa-F7XmirskvemHgDtdDe1ZFmc)]
 
 ### Task 1 Inference
 
