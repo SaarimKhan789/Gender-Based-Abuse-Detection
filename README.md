@@ -37,14 +37,6 @@ We address three classification subtasks:
 | Multi-task Learning | Custom architecture predicting both Label 1 & Label 3 |
 | Preprocessing | Hinglish normalization, transliteration (Hindi) |
 
-**External Data**:
-- [Davidson Hate Speech](https://github.com/t-davidson/hate-speech-and-offensive-language)
-- MACD dataset (NeurIPS 2022)
-
----
-
-
-
 ---
 
 ##  Datasets
@@ -70,7 +62,7 @@ We address three classification subtasks:
 
 ---
 
-##  Results
+## Final Results
 
 | Language | Task 1 | Task 2 | Label 1 (Task 3) | Label 3 (Task 3) |
 |----------|--------|--------|------------------|------------------|
