@@ -54,23 +54,25 @@ We address three classification subtasks:
 
 ## ⚙️ Features
 
-- 🔤 Hinglish-to-Hindi transliteration via `indic-transliteration`
-- 📊 Training + Validation loss plots
-- 🧪 Single-sentence inference
-- 📁 Auto-generated prediction CSVs
-- 📉 Confusion matrix visualizations
+-  Hinglish-to-Hindi transliteration via `indic-transliteration`
+-  Training + Validation loss plots
+-  Single-sentence inference
+-  Auto-generated prediction CSVs
+-  Confusion matrix visualizations
 
 ---
 
 ## ⚙️ Setup Instructions
+'
+###  [Download the models for all tasks](https://drive.google.com/drive/u/0/folders/1kxJ4Avpa-F7XmirskvemHgDtdDe1ZFmc)
 
 ### Task 1 Inference
 
-1. 📂 Upload the dataset to **Kaggle**
-2. 📓 Upload the notebook to **Kaggle**
-3. 🔧 Set the variable `TRAIN_FLAG = False`
-4. 📁 Upload the **trained model** and update `BEST_MODEL_DIR` with its path
-5. 🛠️ Update the `file_paths` dictionary to reflect the correct dataset paths
+1.  Upload the dataset to **Kaggle**
+2.  Upload the notebook to **Kaggle**
+3.  Set the variable `TRAIN_FLAG = False`
+4.  Upload the **trained model** and update `BEST_MODEL_DIR` with its path
+5.  Update the `file_paths` dictionary to reflect the correct dataset paths
 6. ▶️ Run all cells
 
 ---
@@ -85,18 +87,18 @@ We address three classification subtasks:
    - `file_paths`
    - `hindi_ext_path`
    - `tamil_ext_path`
-6. 🧠 In `infer_sentence()` set `best_model_dir` to uploaded model path
+6.  In `infer_sentence()` set `best_model_dir` to uploaded model path
 7. ▶️ Run all cells
 
 ---
 
 ### Task 3 Inference (Multi-task Learning)
 
-1. 📂 Upload the dataset to **Kaggle**
-2. 📓 Upload the notebook to **Kaggle**
-3. 🔧 Set `mode_flag = 'infer'`
-4. 📁 Upload the **trained model**
-5. 🛠️ Update:
+1.  Upload the dataset to **Kaggle**
+2.  Upload the notebook to **Kaggle**
+3.  Set `mode_flag = 'infer'`
+4.  Upload the **trained model**
+5.  Update:
    - `BEST_MODEL_DIR`  
    - `multitask_file_paths`
 6. ▶️ Run all cells
