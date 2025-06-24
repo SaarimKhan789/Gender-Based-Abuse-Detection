@@ -43,13 +43,7 @@ We address three classification subtasks:
 
 ---
 
-##  Results
 
-| Language | Task 1 | Task 2 | Label 1 (Task 3) | Label 3 (Task 3) |
-|----------|--------|--------|------------------|------------------|
-| English  | 0.736  | 0.738  | 0.713            | 0.728            |
-| Hindi    | 0.712  | 0.703  | 0.678            | 0.773            |
-| Tamil    | 0.825  | 0.815  | 0.809            | 0.876            |
 
 ---
 
@@ -73,6 +67,16 @@ We address three classification subtasks:
 -  Single-sentence inference
 -  Auto-generated prediction CSVs
 -  Confusion matrix visualizations
+
+---
+
+##  Results
+
+| Language | Task 1 | Task 2 | Label 1 (Task 3) | Label 3 (Task 3) |
+|----------|--------|--------|------------------|------------------|
+| English  | 0.736  | 0.738  | 0.713            | 0.728            |
+| Hindi    | 0.712  | 0.703  | 0.678            | 0.773            |
+| Tamil    | 0.825  | 0.815  | 0.809            | 0.876            |
 
 ---
 
