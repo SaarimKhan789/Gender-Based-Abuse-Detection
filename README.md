@@ -14,12 +14,12 @@ We address three classification subtasks:
 
 <br>
 <br>
-<br>
 
 - **Label 1** - Is this post gendered abuse when not directed at a person of marginalized gender and sexuality?
 - **Label 2** - Is the post gendered abuse when directed at a person of marginalized gender and sexuality?
 - **Label 3** - Is this post explicit/aggressive?
 
+<br><br>
 - The values for each label could be the following
 - "1" - Indicates the annotator believes the post (tweet) matches the label.
 - "0" - Indicates the annotator doesn’t believes the post (tweet) does not match the label.
