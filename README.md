@@ -1,4 +1,4 @@
-# 🛡️ Gendered Abuse Detection in Indic Languages
+# 🛡️ Multilingual Gendered Abuse Detection
 
 A multilingual system for detecting **gendered abuse** in **Hindi, Tamil, and English** social media content. Built for the [ICON 2023 Shared Task on Gendered Abuse Detection](https://sites.google.com/view/icon2023-tattle-sharedtask/home), this solution incorporates multilingual BERT, domain-adaptive pretraining, and multi-task learning to handle code-mixing and under-resourced Indic languages.
 
